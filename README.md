@@ -6,6 +6,9 @@ https://sarahduv-401-lab-13.herokuapp.com/
 Travis:
 https://travis-ci.com/sarahduv/401-lab-13/builds/134305791
 
+Image:
+![image](https://github.com/sarahduv/401-lab-13/blob/master/assets/image.jpg?raw=true)
+
 To this point, our auth-server is able to handle Basic Authentication (user provides a username + password) and Oauth (user authenticates through a 3rd party). When a “good” login happens, the user is provided a JWT signed “Token” from our auth-server.
 
 This lab will have you operating on the /signin route to add support for Token based authentication (“Bearer Auth”) using a token that you can obtain from performing the above activities.
